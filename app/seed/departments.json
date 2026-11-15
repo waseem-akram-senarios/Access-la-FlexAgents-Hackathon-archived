@@ -1,0 +1,223 @@
+[
+  {
+    "id": "dept_customer_service",
+    "name": "Customer Service",
+    "phone": "1.800.827.0829",
+    "tdd": "1.800.827.1359",
+    "email": "cserv@accessla.org",
+    "menu_option": "5",
+    "source": "2026 Rider's Guide + accessla.org",
+    "needs": ["complaint", "compliment", "general", "appeal", "access id", "tap card", "rider id", "rmr", "reasonable modification", "customer service"],
+    "description": "Access Customer Service (menu Option 5): general questions, complaints/compliments, eligibility updates, Access Rider ID / TAP card replacement help, and RMR routing. Mon–Fri 8am–5pm. Email cserv@accessla.org. TDD 1.800.827.1359. Fax 1.213.270.6057.",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "closed": true},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": [
+      {"date": "2026-11-26", "closed": true, "note": "Thanksgiving"},
+      {"date": "2026-12-25", "closed": true, "note": "Christmas"}
+    ]
+  },
+  {
+    "id": "dept_reservations",
+    "name": "Reservations",
+    "phone": "1.800.883.1295",
+    "tdd": "1.800.826.7280",
+    "email": null,
+    "menu_option": null,
+    "source": "2026 Rider's Guide — Reservations 6am–10pm daily",
+    "needs": ["reservation", "trip", "cancel trip", "standing order", "subscription", "eta", "status", "next day"],
+    "description": "Trip reservations, cancellations, ETAs, and standing orders (after region, Option 3). Open 6am–10pm, 7 days a week. Santa Clarita / Antelope Valley: Mon–Sat 6am–8pm, Sun 8am–8pm. Outside Southern California: 1.213.488.1748. TDD 1.800.826.7280.",
+    "hours": [
+      {"day": "mon", "open": "06:00", "close": "22:00"},
+      {"day": "tue", "open": "06:00", "close": "22:00"},
+      {"day": "wed", "open": "06:00", "close": "22:00"},
+      {"day": "thu", "open": "06:00", "close": "22:00"},
+      {"day": "fri", "open": "06:00", "close": "22:00"},
+      {"day": "sat", "open": "06:00", "close": "22:00"},
+      {"day": "sun", "open": "06:00", "close": "22:00"}
+    ],
+    "holiday_overrides": []
+  },
+  {
+    "id": "dept_omc",
+    "name": "Operations Monitoring Center",
+    "phone": "1.800.827.0829",
+    "tdd": "1.800.827.1359",
+    "email": null,
+    "menu_option": "2",
+    "source": "2026 Rider's Guide — OMC Option 2, 24/7; text TRIP to 1.800.827.4588",
+    "needs": ["urgent", "same day", "late vehicle", "stranded", "omc", "immediate need", "missed trip", "no show"],
+    "description": "OMC (Customer Service menu Option 2): immediate/urgent same-day trip problems, late vehicles, missed trips. Available 24 hours, 7 days including holidays. Text the word TRIP to 1.800.827.4588 for OMC text-to-chat.",
+    "hours": [
+      {"day": "mon", "open": "00:00", "close": "23:59"},
+      {"day": "tue", "open": "00:00", "close": "23:59"},
+      {"day": "wed", "open": "00:00", "close": "23:59"},
+      {"day": "thu", "open": "00:00", "close": "23:59"},
+      {"day": "fri", "open": "00:00", "close": "23:59"},
+      {"day": "sat", "open": "00:00", "close": "23:59"},
+      {"day": "sun", "open": "00:00", "close": "23:59"}
+    ],
+    "holiday_overrides": []
+  },
+  {
+    "id": "dept_eligibility",
+    "name": "Eligibility",
+    "phone": "1.800.827.0829",
+    "tdd": "1.800.827.1359",
+    "email": "cserv@accessla.org",
+    "menu_option": "3",
+    "source": "2026 Rider's Guide — menu Option 3 Eligibility",
+    "needs": ["eligibility", "certification", "recertification", "visitor", "application", "appeal eligibility"],
+    "description": "Eligibility / certification (Customer Service menu Option 3): applications, recertification, visitor eligibility. Hours follow Customer Service: Mon–Fri 8am–5pm. TDD 1.800.827.1359.",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "closed": true},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": [
+      {"date": "2026-11-26", "closed": true, "note": "Thanksgiving"}
+    ]
+  },
+  {
+    "id": "dept_lost_found",
+    "name": "Lost and Found",
+    "phone": "1.800.883.1295",
+    "tdd": "1.800.826.7280",
+    "email": null,
+    "menu_option": "2",
+    "source": "2026 Rider's Guide p. Lost and Found — Reservations Option 2, 7 days 8am–5pm",
+    "needs": ["lost item", "lost and found", "left on vehicle", "missing bag", "lost phone"],
+    "description": "Call the Reservations number for the region traveled and choose Option 2 to report a lost item. Open 7 days a week, 8am–5pm. Items kept 60 days only. Access is not responsible for lost or damaged items. Reservations: 1.800.883.1295 (TDD 1.800.826.7280).",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "open": "08:00", "close": "17:00"},
+      {"day": "sun", "open": "08:00", "close": "17:00"}
+    ],
+    "holiday_overrides": []
+  },
+  {
+    "id": "dept_wmr_support",
+    "name": "WMR / Rider 360 Technical Support",
+    "phone": "1.213.270.6099",
+    "tdd": null,
+    "email": null,
+    "menu_option": null,
+    "source": "2026 Rider's Guide — Where's My Ride hotline 1.213.270.6099",
+    "needs": ["wmr", "where's my ride", "rider 360", "app", "login", "technical support"],
+    "description": "Technical support for the Where's My Ride (WMR) app. Hotline 1.213.270.6099 (verified Rider's Guide). App available on Apple App Store and Google Play.",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "18:00"},
+      {"day": "tue", "open": "08:00", "close": "18:00"},
+      {"day": "wed", "open": "08:00", "close": "18:00"},
+      {"day": "thu", "open": "08:00", "close": "18:00"},
+      {"day": "fri", "open": "08:00", "close": "18:00"},
+      {"day": "sat", "open": "09:00", "close": "13:00"},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": [
+      {"date": "2026-11-26", "closed": true, "note": "Thanksgiving"}
+    ]
+  },
+  {
+    "id": "dept_travel_training",
+    "name": "Travel Training",
+    "phone": "1.888.667.7003",
+    "tdd": null,
+    "email": "info@mobilitymp.org",
+    "menu_option": null,
+    "source": "accessla.org/riding_access/rider_training.html — MMP 1.888.667.7003",
+    "needs": ["travel training", "how to ride", "orientation", "fixed route training"],
+    "description": "Free one-on-one Travel Training via Mobility Management Partners (MMP), Access contractor. Call 1.888.667.7003 or email info@mobilitymp.org. Mon–Fri 8am–5pm. Alternate Access line for Travel Training / alternative options: 1.213.270.6066 (Rider's Guide).",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "closed": true},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": []
+  },
+  {
+    "id": "dept_civil_rights",
+    "name": "Civil Rights / ADA Coordinator",
+    "phone": "1.213.270.6000",
+    "tdd": null,
+    "email": "adacoordinator@accessla.org",
+    "menu_option": null,
+    "source": "accessla.org Title VI — ADA Coordinator 213.270.6000",
+    "needs": ["civil rights", "ada", "discrimination", "title vi", "accessibility", "ada coordinator"],
+    "description": "Title VI / ADA nondiscrimination. Contact Access Services ADA Coordinator at 1.213.270.6000 or adacoordinator@accessla.org. Mail: Access Services Customer Relations ADA Coordinator, P.O. Box 5728, El Monte, CA 91734. FTA Civil Rights: 1.888.446.4511.",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "closed": true},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": [
+      {"date": "2026-11-26", "closed": true, "note": "Thanksgiving"}
+    ]
+  },
+  {
+    "id": "dept_mobility_management",
+    "name": "Mobility Management",
+    "phone": "1.213.270.6066",
+    "tdd": null,
+    "email": null,
+    "menu_option": null,
+    "source": "2026 Rider's Guide — Mobility Management / Travel Training alt options 1.213.270.6066",
+    "needs": ["mobility management", "beyond the curb", "alternative transportation", "other transit", "escort"],
+    "description": "Mobility Management Program: coordinated transportation options for older adults and people with disabilities, including Beyond the Curb info routing. Rider's Guide: call 1.213.270.6066 for alternative transportation options and Travel Training info. General Access questions also via Customer Service 1.800.827.0829.",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "closed": true},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": []
+  },
+  {
+    "id": "dept_billing",
+    "name": "Billing / Fare Assistance",
+    "phone": "1.800.827.0829",
+    "tdd": "1.800.827.1359",
+    "email": "cserv@accessla.org",
+    "menu_option": "5",
+    "source": "Fare quoted at reservation; disputes via Customer Service 1.800.827.0829",
+    "needs": ["fare", "billing", "payment", "tap", "refund", "invoice", "coupon", "exact fare"],
+    "description": "Fare amount is quoted when a trip is reserved (Reservations 1.800.883.1295). Payment: cash, Access coupons, credit/debit, Metro Mobility Card. Billing/fare disputes and TAP help: Customer Service 1.800.827.0829 Mon–Fri 8am–5pm. Seed includes a closed-today holiday override for judge open_now checks.",
+    "hours": [
+      {"day": "mon", "open": "08:00", "close": "17:00"},
+      {"day": "tue", "open": "08:00", "close": "17:00"},
+      {"day": "wed", "open": "08:00", "close": "17:00"},
+      {"day": "thu", "open": "08:00", "close": "17:00"},
+      {"day": "fri", "open": "08:00", "close": "17:00"},
+      {"day": "sat", "closed": true},
+      {"day": "sun", "closed": true}
+    ],
+    "holiday_overrides": [
+      {"date": "__TODAY__", "closed": true, "note": "Seed: closed today for judge open_now / closed_today checks"}
+    ]
+  }
+]
